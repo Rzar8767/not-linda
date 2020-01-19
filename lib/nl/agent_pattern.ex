@@ -28,7 +28,7 @@ defmodule NL.AgentPattern do
 
   def woodcutter() do
     get_axe()
-    Logger.info("Woodcutter has acquired pickaxe from the environment, cutting trees.")
+    Logger.info("Woodcutter has acquired axe from the environment, cutting trees.")
 
     Enum.each(1..3, fn _el ->
       space_out({:wood})
